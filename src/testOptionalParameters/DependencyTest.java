@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 
 
-public class DependencyTest {
+public class DependencyTest   {
 
 	@Test
 	public void testPrintMessage() {
