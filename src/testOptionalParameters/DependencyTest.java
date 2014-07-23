@@ -3,6 +3,8 @@ package testOptionalParameters;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
+
 public class DependencyTest {
 
 	@Test
@@ -21,7 +23,7 @@ public class DependencyTest {
 	@Test(dependsOnMethods = { "testPrintMessage", "testMethods" }, alwaysRun = true)
 	public void addMethods() {
 		System.out.println("In add Method");
-		String str = "xyz";
+		//String str = "xyz";
 		Assert.assertEquals(str, "xyz");
 	}
 }
