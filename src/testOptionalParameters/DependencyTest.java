@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 //Added comments
 
 public class DependencyTest   {
-        //Executing the TEst case
+
 	@Test
 	public void testPrintMessage() {
 		System.out.println("Inside testPrintMessage()");
